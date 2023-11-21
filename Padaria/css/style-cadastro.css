@@ -1,0 +1,79 @@
+/* ---- STYLE DA PÁGINA DE CADASTRO ----- */
+
+
+body {
+    background-color: #EFDFC7;
+    overflow-x: hidden;
+}
+
+#button-container {
+    display: initial;
+}
+
+/* TITLE CONTAINER */
+#title-container {
+    background: #627998;
+    line-height: 1.8em;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2.5em;
+    border-radius: 0 0 2.5vh 2.5vh;
+}
+
+
+/* CADASTRO CONTAINER */
+.label-container {
+    background-color: #BB853A;
+    color: #FFFFFF;
+    border: 7px solid #BB853A;
+    border-radius: 7px 7px 0 0;
+    padding: 0 1% 0 1%;
+}
+
+.input-container {
+    border: 7px solid #BB853A;
+    border-radius: 0 15px 15px 15px;
+
+}
+ 
+.form-control:focus{ 
+    border: 7px solid #BB853A; 
+    -webkit-box-shadow: none; 
+    box-shadow: none; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* BUTTON CONTAINER */
+#button-cadastrar {
+    margin-left: 35%;
+    border: none;
+    border-radius: 15px;
+    padding: 3% 2% 3% 2%;
+
+    background-color: #57A773;
+    color: #FFFFFF;
+}
+
+
+/* BUTTON HOME */
+#button-home {
+    background-image: url(../img/arrow-left.png);
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+
+    top: 10px;
+    left: 10px;
+}
+
+#button-home a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0);
+}

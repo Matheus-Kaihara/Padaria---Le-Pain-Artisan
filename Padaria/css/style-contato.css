@@ -1,0 +1,59 @@
+body{
+    background-color: #EFDFC7;
+    overflow-x: hidden;
+}
+
+/* TITLE CONTAINER */
+#title-container{
+    background: #627998;
+    line-height: 1.8em;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 34px;
+    border-radius: 0 0 2.5vh 2.5vh;
+}
+/* BUTTON HOME */
+#button-home{
+    background-image: url(../img/arrow-left.png);
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+
+    top: 10px;
+    left: 10px;
+}
+
+#button-home a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0);
+}
+#caixa{
+    background-color: #BB853A;
+    padding: 50px;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+#caixaBranca{
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 20px;
+ 
+}
+#Contato{
+    background: #627998;
+    line-height: 1.3em;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2.5em;
+    border-radius: 120px;
+    padding: 14px;
+    box-shadow: #000000;
+}
+#escrita{
+    font-size: 28px;  
+    font-style: normal;
+}

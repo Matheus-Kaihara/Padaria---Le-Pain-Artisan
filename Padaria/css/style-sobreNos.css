@@ -1,0 +1,72 @@
+body{
+    background-color: #EFDFC7;
+    overflow-x: hidden;
+}
+/* TITLE CONTAINER */
+#title-container{
+    background: #627998;
+    line-height: 1.8em;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 34px;
+    border-radius: 0 0 2.5vh 2.5vh;
+}
+/* BUTTON HOME */
+#button-home{
+    background-image: url(../img/arrow-left.png);
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+
+    top: 10px;
+    left: 10px;
+}
+
+#button-home a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0);
+}
+#caixa{
+    background-color: #BB853A;
+    padding: 50px;
+    border-radius: 20px;
+    overflow: auto;
+    height: 100%;
+}
+
+#caixaBranca{
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 80%;
+}
+#QuemSomos{
+    background: #627998;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 120px;
+    padding: 14px;
+    box-shadow: #000000;
+}
+#escrita{
+    font-style: normal;
+    text-align: justify;
+}
+#nomes{
+    text-align: center;
+    font-style: normal;
+    padding-bottom: 5vh;
+}
+#Colaboradores{
+    background: #627998;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 120px;
+    padding: 14px;
+    margin-top: 45px; 
+    box-shadow: #000000;
+}
